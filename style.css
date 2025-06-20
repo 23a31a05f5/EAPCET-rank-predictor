@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkslategrey;
+    background-image: url('https://img.freepik.com/premium-photo/artistic-collage-textures-exploring-beauty-paper-frames-backgrounds-nature_1020495-211058.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.container{
+    background-color: white;
+    text-align:center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 500px;
+  padding:2rem
+}
+input, .first {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  label{
+    font-size: 30px;
+  }
+
+
+  .first {
+    background-color: #3198d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .first:hover {
+    background-color: #113e6f;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4e0808;
+    font-size:20px;
+  }
