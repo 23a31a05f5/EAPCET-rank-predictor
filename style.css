@@ -1,48 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color:darkslategrey;
-    background-image: url('https://img.freepik.com/premium-photo/artistic-collage-textures-exploring-beauty-paper-frames-backgrounds-nature_1020495-211058.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-.container{
-    background-color: white;
-    text-align:center;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 500px;
-  padding:2rem
+  font-family: Arial, sans-serif;
+  background-color: #6b6262;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
-input, .first {
-    margin-top: 10px;
-    padding: 5px;
-    width: 100%;
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-  label{
-    font-size: 30px;
-  }
+#head{
+  color:white
+}
+.todo-container {
+  background: rgb(24, 2, 2);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #a53636;
+  width:350px;
+  text-align: center;
+  color:black;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  margin-top: 10px;
+  
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 30px;
+}
 
 
-  .first {
-    background-color: #3198d8;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+li {
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
-  .first:hover {
-    background-color: #113e6f;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-weight: bold;
-    color: #4e0808;
-    font-size:20px;
-  }
+}
+
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

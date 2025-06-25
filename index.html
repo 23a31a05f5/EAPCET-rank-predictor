@@ -2,23 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AP EAPCET Rank Predictor</title>
+  <title>Simple To-Do List</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-  <div class="container">
-    <img src="https://cdn.aglasem.com/centralised/exam-logo/eamcet.jpg" height="100px" width="100px" class="header-logo">
-    <h1 style="color:brown">AP EAPCET Rank Predictor</h1>
-    <label for="eamcet">EAPCET score (out of 160):</label>
-    <input type="number" id="eamcet" min="40" max="160" />
-    <label for="ipe">IPE Score(out of 600):</label>
-    <input type="number" id="ipe" min="0" max="600"/>
-
-    <button class="first"onclick="predictRank()">Predict Rank</button>
-    <div><button id="result">
-    </button></div>
+  <div class="todo-container">
+    <h1 id="head">To-Do List</h1>
+    <input type="text" id="task-input" placeholder="Enter a task">
+    <button id="add-task">Add</button>
+    <ul id="task-list"></ul>
   </div>
   <script src="script.js"></script>
-  </body>
+</body>
 </html>
